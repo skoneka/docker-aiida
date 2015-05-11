@@ -6,6 +6,8 @@ Dockerfile for setup  of AiiDa + postgres. Automated build.
 
 docker run -it skoneka/docker-aiida /sbin/my_init -- bash -l
 
+now run: verdi shell
+
 ## Building your own image
 
 docker build -t aiida .
